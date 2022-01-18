@@ -1,10 +1,11 @@
+import logo from 'img/gerbera.png';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   return (
     <header id="headBox">
-      <h1>header</h1>
+      <h1><Link to="/"><img src={logo} alt="사이트이름" /></Link></h1>
       <nav className='gnb'>
         <NavLink to="/">home</NavLink> 
           { ' | ' }    
