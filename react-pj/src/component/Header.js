@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
-  {/* 함수(컴포넌트) 내부에서 경로를 처리하는 형태는 public기준 */}
+  /* 함수(컴포넌트) 내부에서 경로를 처리하는 형태는 public기준 */
   const imgStyle = {width:'100px', height:'auto'};
   const [myImg, setImage] = useState({});
 
